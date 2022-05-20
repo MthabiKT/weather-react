@@ -9,7 +9,7 @@ export default function () {
     description: "Mostly Cloudy",
     imgUrl: "http://openweathermap.org/img/wn/04n@2x.png",
     humidity: 70,
-    wind: 2
+    wind: 2,
   };
   return (
     <div className="Weather">
