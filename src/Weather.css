@@ -1,0 +1,30 @@
+.Weather .temperature {
+  font-size: 36px;
+  padding-top: 10px;
+}
+
+.Weather {
+  padding: 20px;
+  border: 1px solid #daddda;
+  border-radius: 10px;
+  color: black;
+  max-width: 700px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
+.Weather .weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 15px;
+  top: -34px;
+}
