@@ -7,6 +7,10 @@ export default function App() {
   return (
     <div className="App">
       <Weather />
+      <div>
+        <a href="https://github.com/MthabiKT/weather-react">Open-source code</a>
+        , by Mthabi.K.T
+      </div>
     </div>
   );
 }
