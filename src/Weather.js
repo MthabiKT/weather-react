@@ -50,7 +50,7 @@ export default function () {
                 <strong className="temperature">
                   {weatherData.temperature}
                 </strong>
-                °C " | °F
+                °C | °F
               </div>
             </div>
           </div>
