@@ -12,16 +12,19 @@
   margin: 30px auto;
   background: rgba(255, 255, 255, 0.34);
 }
-
+.Weather .float-left {
+  padding: 10px 5px 5px;
+}
 .Weather .overview {
   margin-bottom: 20px;
 }
 
-.Weather .weather-temperature strong {
+.Weather .weather-temperature .temperature {
   color: rgb(33, 33, 33);
-  font-size: 64px;
+  font-size: 62px;
   line-height: 1;
   font-weight: 400;
+  padding: 15px;
 }
 .Weather .weather-temperature .units {
   position: relative;
