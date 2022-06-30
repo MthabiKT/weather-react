@@ -18,6 +18,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
     });
   }
+
   function handleSubmit(event) {
     event.preventDefault();
     search();
