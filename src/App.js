@@ -9,7 +9,8 @@ export default function App() {
       <Weather defaultCity="New York" />
       <footer>
         <a href="https://github.com/MthabiKT/weather-react">Open-source code</a>
-        , by Mthabi.K.T
+        , by Mthabi.K.T, hosted on{" "}
+        <a href="https://fluffy-treacle-d6f7bb.netlify.app/">Netlify</a>
       </footer>
     </div>
   );
