@@ -24,34 +24,6 @@ export default function WeatherForcast(props) {
           </div>
           <div className="WeatherForecast-temperature">21°</div>
         </div>
-        <div className="col">
-          <div className="WeatherForecast-day">TUES</div>
-          <div>
-            <WeatherIcon code="50d" size={38} />
-          </div>
-          <div className="WeatherForecast-temperature">21°</div>
-        </div>
-        <div className="col">
-          <div className="WeatherForecast-day">WED</div>
-          <div>
-            <WeatherIcon code="03d" size={38} />
-          </div>
-          <div className="WeatherForecast-temperature">21°</div>
-        </div>
-        <div className="col">
-          <div className="WeatherForecast-day">THUR</div>
-          <div>
-            <WeatherIcon code="11d" size={38} />
-          </div>
-          <div className="WeatherForecast-temperature">21°</div>
-        </div>
-        <div className="col">
-          <div className="WeatherForecast-day">FRI</div>
-          <div>
-            <WeatherIcon code="11d" size={38} />
-          </div>
-          <div className="WeatherForecast-temperature">21°</div>
-        </div>
       </div>
     </div>
   );
