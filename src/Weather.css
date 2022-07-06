@@ -8,9 +8,9 @@
   border: 1px solid #daddda;
   border-radius: 10px;
   color: black;
-  max-width: 700px;
+  max-width: 1000px;
   margin: 30px auto;
-  background: rgba(255, 255, 255, 0.34);
+  background-image: url(https://images.pexels.com/photos/640809/pexels-photo-640809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 .Weather .float-left {
   padding: 10px 5px 5px;
@@ -30,4 +30,17 @@
   position: relative;
   font-size: 15px;
   top: -34px;
+}
+.Weather .form-control,
+.btn {
+  border-radius: 25px;
+}
+.Weather .WeatherInfo {
+  padding-bottom: 150px;
+}
+.Weather .WeatherForcast,
+.forecastDay {
+  background: #7c7c7c2b;
+  color: white;
+  border-radius: 10px;
 }

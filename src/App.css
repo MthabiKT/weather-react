@@ -3,10 +3,10 @@
 }
 .App,
 footer {
-  max-width: 700px;
+  max-width: 1000px;
 }
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   text-align: left;
   line-height: 29px;
 }
