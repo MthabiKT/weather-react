@@ -1,16 +1,10 @@
-.Weather .temperature {
-  font-size: 36px;
-  padding-top: 10px;
-}
-
 .Weather {
   padding: 20px;
-  border: 1px solid #daddda;
   border-radius: 10px;
-  color: black;
-  max-width: 1000px;
+  color: white;
+  background-color: #000000d0;
+  max-width: 860px;
   margin: 30px auto;
-  background-image: url(https://images.pexels.com/photos/640809/pexels-photo-640809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 .Weather .float-left {
   padding: 10px 5px 5px;
@@ -19,8 +13,13 @@
   margin-bottom: 20px;
 }
 
+.Weather .form-control,
+.btn {
+  border-radius: 25px;
+}
+
 .Weather .weather-temperature .temperature {
-  color: rgb(33, 33, 33);
+  color: white;
   font-size: 62px;
   line-height: 1;
   font-weight: 400;
@@ -31,16 +30,12 @@
   font-size: 15px;
   top: -34px;
 }
-.Weather .form-control,
-.btn {
-  border-radius: 25px;
-}
 .Weather .WeatherInfo {
   padding-bottom: 150px;
 }
 .Weather .WeatherForcast,
 .forecastDay {
-  background: #7c7c7c2b;
+  background: #000000d0;
   color: white;
   border-radius: 10px;
 }
